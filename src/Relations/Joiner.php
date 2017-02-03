@@ -185,7 +185,7 @@ class Joiner implements JoinerContract
         }
 
         if ($relation instanceof BelongsTo) {
-            return [$relation->getQualifiedForeignKey(), $relation->getQualifiedOtherKeyName()];
+            return [$relation->getQualifiedForeignKey(), $relation->getQualifiedOwnerKeyName()];
         }
 
         if ($relation instanceof BelongsToMany) {
