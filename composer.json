@@ -1,5 +1,5 @@
 {
-    "name": "andybeesee/eloquence",
+    "name": "sofa/eloquence",
     "description": "Flexible Searchable, Mappable, Metable, Validation and more extensions for Laravel Eloquent ORM.",
     "license": "MIT",
     "support": {
@@ -16,22 +16,23 @@
     ],
     "authors": [
         {
-            "name": "Andy Hollandmoritz",
-            "email": "ahollandmoritz@gmail.com",
+            "name": "Jarek Tkaczyk",
+            "email": "jarek@softonsofa.com",
+            "homepage": "http://softonsofa.com/",
             "role": "Developer"
         }
     ],
+    "require": {
+        "php": ">=5.6.4",
+        "sofa/hookable": "dev-54work",
+        "illuminate/database": "5.3.*|5.4.*"
+    },
     "repositories": [
       {
           "type": "vcs",
           "url": "https://github.com/andybeesee/hookable"
       }
     ],
-    "require": {
-        "php": ">=5.6.4",
-        "andybeesee/hookable": "5.4.*|5.3.*",
-        "illuminate/database": "5.3.*|5.4.*"
-    },
     "require-dev": {
         "phpunit/phpunit": "4.5.0",
         "squizlabs/php_codesniffer": "2.3.3",
