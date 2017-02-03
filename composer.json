@@ -24,7 +24,7 @@
     ],
     "require": {
         "php": ">=5.6.4",
-        "sofa/hookable": "dev-54work",
+        "sofa/hookable": "dev-54-work",
         "illuminate/database": "5.3.*|5.4.*"
     },
     "repositories": [
